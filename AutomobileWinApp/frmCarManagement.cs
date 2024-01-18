@@ -37,6 +37,7 @@ namespace AutomobileWinApp
             {
                 Text = "Update Car",
                 InsertOrUpdate = true,
+                CarInfo = GetCarObject(),
                 CarRepository = carRepository
             };
             if (frmCarDetails.ShowDialog() == DialogResult.OK)
